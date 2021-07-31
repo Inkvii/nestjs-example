@@ -4,7 +4,13 @@
     "json",
     "ts"
   ],
-  "rootDir": ".",
+  "roots": [
+    "<rootDir>/../src/",
+    "<rootDir>"
+  ],
+  "modulePaths": [
+    "<rootDir>/../src/"
+  ],
   "testEnvironment": "node",
   "testRegex": ".e2e-spec.ts$",
   "transform": {
